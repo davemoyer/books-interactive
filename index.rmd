@@ -1,25 +1,32 @@
 ---
-title: "Reading"
+title: "Books Read"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+booklist <- read.csv("booklist.csv")
+library(ggplot2)
+library(dplyr)
 ```
 
 ## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+I found I enjoyed the simple process of writing down the books I'd read, which spawned this small effort. I soon set myself a target of reading 24 books annually, and also set a target of reading at least one Pullitzer Prize winning work each year.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+```{r over-time, echo=FALSE}
+by_year <- booklist %>%
+  group_by(year) %>%
+  summarise(count = n())
 
-```{r cars}
-summary(cars)
+ggplot(by_year, aes(x = year, y = count)) +
+  geom_line(size = 1.25) +
+  ylim(0,30) +
+  geom_hline(yintercept = 24, linetype = "dashed") +
+  theme_minimal()
+
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
