@@ -1,6 +1,7 @@
 ---
 title: "Books Read"
 output: html_document
+
 ---
 
 ```{r setup, include=FALSE}
@@ -8,6 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 booklist <- read.csv("booklist.csv")
 library(ggplot2)
 library(dplyr)
+library(cowplot)
 ```
 
 ## R Markdown
@@ -22,14 +24,15 @@ by_year <- booklist %>%
 ggplot(by_year, aes(x = year, y = count)) +
   geom_line(size = 1.25) +
   ylim(0,30) +
-  geom_hline(yintercept = 24, linetype = "dashed") +
+  geom_hline(yintercept = 24, 
+             linetype = "dashed") +
   theme_minimal()
 
 ```
 
 
 ```{r pressure, echo=FALSE}
-plot(pressure)
+table(booklist)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
