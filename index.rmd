@@ -12,7 +12,7 @@ library(dplyr)
 library(cowplot)
 ```
 
-## R Markdown
+## How I read
 
 I found I enjoyed the simple process of writing down the books I'd read, which spawned this small effort. I soon set myself a target of reading 24 books annually, and also set a target of reading at least one Pullitzer Prize winning work each year.
 
