@@ -1,5 +1,4 @@
 name: "my-website"
-output_dir: "."
 navbar:
   title: "Reading More Books"
   left:
