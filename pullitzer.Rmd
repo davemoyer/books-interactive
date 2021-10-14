@@ -1,38 +1,54 @@
 ---
-title: "Pullitzer Project"
+title: 'Pullitzer Progress'
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 pullitzer <- read.csv("pullitzer.csv")
 library(ggplot2)
 library(dplyr)
 library(cowplot)
 ```
 
-## Context
+
 Several years ago, I resolved to read more books, but was a bit lost as to how go about it.
 I figured award-winning books were a good start, and no better system than the Pulitzer, which
 has "History" and "General Non-Fiction" categories that I now try to read from. My goal is to have
 read at least one of the finalists each year.
 
 
-```{r pullitzer-by-year, echo=FALSE}
+```{r pullitzer-by-year, message=FALSE, warning=FALSE}
 
 pullitzer_years <- pullitzer %>%
   group_by(year, category) %>%
   summarise(count = sum(read))
 
-ggplot(pullitzer_years, aes(x = year)) +
-  geom_bar(aes(weight = count, fill = category)) +
+ggplot(pullitzer_years, aes(x = year, y = count, fill = category)) +
+  geom_area() +
+  ylim(0,(max(pullitzer_years$count)+1)) +
   theme_minimal()
 
 ```
 
+## The full list
+
+These are the finalists and winners of general nonfiction and history, and my progress in reading them.
+
 ```{r over-time, echo=FALSE}
+library(reactable)
 plot_table <- pullitzer %>%
-  arrange(desc(year), desc(category), desc(award))
-head(plot_table)
+  arrange(desc(year), desc(category), desc(award)) %>%
+  select(-long.title)
+
+reactable(plot_table,
+          sortable = TRUE,
+          showSortable = TRUE,
+          defaultPageSize = 20,
+          rowStyle = function(index) {
+            if (plot_table[index,"read"] == 1) {
+              list(fontWeight = "bold")
+            }
+          })
 
 ```

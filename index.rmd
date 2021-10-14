@@ -1,5 +1,5 @@
 ---
-title: "Books Read"
+title: "Book Reading"
 output: html_document
 
 ---
@@ -12,9 +12,13 @@ library(dplyr)
 library(cowplot)
 ```
 
-## How I read
-
 I found I enjoyed the simple process of writing down the books I'd read, which spawned this small effort. I soon set myself a target of reading 24 books annually, and also set a target of reading at least one Pullitzer Prize winning work each year.
+
+
+
+### How I'm doing
+
+Three years of steady progress with a peak in 2019. Then a decline...but so is life.
 
 ```{r over-time, echo=FALSE}
 by_year <- booklist %>%
@@ -30,9 +34,18 @@ ggplot(by_year, aes(x = year, y = count)) +
 
 ```
 
+### What have I read this year?
+```{r current-books, echo=FALSE}
+library(reactable)
 
-```{r pressure, echo=FALSE}
-table(booklist)
+this_year <- max(booklist$year)
+
+current_year <- booklist %>%
+  filter(year == this_year) %>%
+  select(-year,
+         Title = short.title,
+         Author = author)
+
+reactable(current_year)
+
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
