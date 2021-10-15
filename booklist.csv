@@ -1,81 +1,81 @@
-year,short-title,author
-2021,Pandemic,Sonia Shah
-2021,Civilizing Torture,W. Fitzhugh Brundage
-2021,What Tech Calls Thinking,Adrian Daub
-2021,Making the Unequal Metropolis,Ansley T. Erickson
-2021,Vision or Mirage,David Rundell
-2021,A Promised Land,Barack Obama
-2020,The Genius of Birds ,Jennifer Ackerman
-2020,The Lost City of the Monkey God ,Douglas Preston
-2020,Limits of the Known ,David Roberts
-2020,There There ,Tommy Orange
-2020,How to be an Antiracist ,Ibram X. Kendi
-2020,The End of the Myth ,Greg Grandin
-2020,Solitary ,Albert Woodfox
-2020,Sweet Taste of Liberty ,W. Caleb McDaniel
-2020,Factfulness ,Hans Rosling
-2019,~ The Gulf ,Jack E. Davis
-2019,Continental Divide ,Maurice Isserman
-2019,The Martian Chronicles ,Ray Bradbury
-2019,Innumeracy ,John Allen Paulos
-2019,Continental Divide ,Maurice Isserman
-2019,Strangers in Their Own Land ,Arlie Russell Hochschild
-2019,What Doesn't Kill Us ,Scott Carney
-2019,Eiger Dreams ,Jon Krakauer
-2019,The Other Slavery ,Andrés Reséndez
-2019,Sprawlball ,Kirk Goldsberry
-2019,Survival Math ,Michell S. Jackson
-2019,Cribsheet ,Emily Oster
-2019,The MVP Machine ,Ben Lindbergh & Travis Sawchik
-2019,The Line Becomes a River ,Francisco Cantú
-2019,Amity and Prosperity ,Eliza Griswold
-2019,Redeployment ,Phil Klay
-2019,Leadership ,Doris Kearns Goodwin
-2019,Quick and the Dead ,Pavel Tsatsouline
-2019,The Nature Fix ,Florence Williams
-2019,This Republic of Suffering ,Drew Gilpin Faust
-2019,Waterman ,David Davis
-2019,Ratio ,Michael Ruhlman
-2019,Eruption ,Steve Olson
-2019,Dopesick ,Beth Macy
-2018,In a Different Key ,John Donvan and Caren Zucker
-2018,Mindset ,Carol Dweck
-2018,Weapons of Math Destruction ,Cathy O’Neil
-2018,The Generals ,Thomas Ricks
-2018,Negotiating Opportunities ,Jessica McCrory Calarco
-2018,"Promise Me, Dad ",Joe Biden
-2018,Deep ,James Nestor
-2018,Evicted ,Matthew Desmond
-2018,On the Fire Line ,Matthew Desmond
-2018,No Good Men Among the Living ,Anand Gopal
-2018,Locking Up Our Own ,James Forman Jr.
-2018,On Trails ,Robert Moor
-2018,Custer's Trials ,T.J. Stiles
-2018,Tides ,Jonathan White
-2018,Left for Dead ,Beck Weathers
-2018,Educational Goods ,"Harry Brighouse, et al."
-2018,Paradise of the Pacific ,Susanna Moore
-2018,Superforecasting ,Dan Gardner and Philip E. Tetlock
-2018,Ghosts of K2 ,Mick Conefrey
-2018,The Fifth Risk ,Michael Lewis
-2018,Endure ,Alex Hutchinson
-2018,Fire Season ,Phillip Connors
-2018,The Evolution of Beauty ,Richard O. Prum
-2017,Between the World and Me ,Ta-Nehisi Coates
-2017,The Undoing Project ,MIchael Lewis
-2017,Barbarian Days ,William Finnegan
-2017,The Checklist Manifesto ,Atul Gawande
-2017,Hillbilly Elegy ,J.D. Vance
-2017,Quiet ,Susan Cain
-2017,Sapiens ,Yuval Noah Harari
-2017,There Are No Children Here ,Alex Kotlowitz
-2017,The Sports Gene ,David Epstein
-2017,~The Maroons of Jamaica ,Mavis Campbell
-2017,Natural Born Heroes ,Christopher McDougall
-2017,Tribe ,Sebastian Junger
-2017,Pacific ,Simon Winchester
-2017,Churchill & Orwell ,Thomas Ricks
-2017,Black Flags ,Joby Warrick
-2017,Age of Ambition ,Evan Osnos
-2017,Encounters at the Heart of the World ,Elizabeth Fenn
-2017,Grit ,Angela Duckworth
+read-order,year,isbn,short-title,long-title,author,author-of-color,author-female
+1,2021,978-1250118004,Pandemic,"Pandemic: Tracking Contagions, from Cholera to Coronaviruses and Beyond",Sonia Shah,1,1
+2,2021,978-0674737662,Civilizing Torture,Civilizing Torture: An American Tradition,W. Fitzhugh Brundage,0,0
+3,2021,978-0374538644,What Tech Calls Thinking,What Tech Calls Thinking: An Inquiry into the Intellectual Bedrock of Silicon Valley,Adrian Daub,0,0
+4,2021,978-0226025254,Making the Unequal Metropolis,Making the Unequal Metropolis: School Desegregation and Its Limits,Ansley T. Erickson,0,1
+5,2021,978-1838605933,Vision or Mirage,Vision or Mirage: Saudi Arabia at the Crossroads,David Rundell,0,0
+6,2021,1524763160,A Promised Land,A Promised Land,Barack Obama,1,0
+7,2021,978-0393881554,The Premonition,The Premonition: A Pandemic Story,Michael Lewis,0,0
+1,2020,978-0399563126,The Genius of Birds ,The Genius of Birds ,Jennifer Ackerman,0,1
+2,2020,978-1455540013,The Lost City of the Monkey God ,The Lost City of the Monkey God: A True Story,Douglas Preston,0,0
+3,2020,978-0393609868,Limits of the Known ,Limits of the Known,David Roberts,0,0
+4,2020,978-0525436140,There There ,There There,Tommy Orange,1,0
+5,2020,978-0525509288,How to be an Antiracist ,How to Be an Antiracist,Ibram X. Kendi,1,0
+6,2020,978-1250214850,The End of the Myth ,The End of the Myth: From the Frontier to the Border Wall in the Mind of America,Greg Grandin,0,0
+7,2020,978-0802148308,Solitary ,Solitary,Albert Woodfox,1,0
+8,2020,978-0190846992,Sweet Taste of Liberty ,Sweet Taste of Liberty: A True Story of Slavery and Restitution in America,W. Caleb McDaniel,0,0
+9,2020,978-1250107817,Factfulness ,Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think,Hans Rosling,0,0
+1,2019,978-1631494024,The Gulf ,The Gulf: The Making of An American Sea,Jack E. Davis,0,0
+2,2019,978-0393068504,Continental Divide ,Continental Divide: A History of American Mountaineering,Maurice Isserman,0,0
+3,2019,978-1451678192,The Martian Chronicles ,The Martian Chronicles ,Ray Bradbury,0,0
+4,2019,,Innumeracy ,,John Allen Paulos,,0
+5,2019,,Strangers in Their Own Land ,,Arlie Russell Hochschild,,
+6,2019,,What Doesn't Kill Us ,,Scott Carney,,
+7,2019,,Eiger Dreams ,,Jon Krakauer,0,0
+8,2019,,The Other Slavery ,,Andrés Reséndez,,
+9,2019,,Sprawlball ,,Kirk Goldsberry,,
+10,2019,,Survival Math ,,Michell S. Jackson,,
+11,2019,,Cribsheet ,,Emily Oster,0,1
+12,2019,,The MVP Machine ,,Ben Lindbergh & Travis Sawchik,,
+13,2019,,The Line Becomes a River ,,Francisco Cantú,,
+14,2019,,Amity and Prosperity ,,Eliza Griswold,,
+15,2019,,Redeployment ,,Phil Klay,,
+16,2019,,Leadership ,,Doris Kearns Goodwin,,
+17,2019,978-0989892421,Quick and the Dead ,The Quick and the Dead: Total Training for the Advanced Minimalist,Pavel Tsatsouline,0,0
+18,2019,,The Nature Fix ,,Florence Williams,,
+19,2019,,This Republic of Suffering ,,Drew Gilpin Faust,,1
+20,2019,,Waterman ,,David Davis,,0
+21,2019,,Ratio ,,Michael Ruhlman,,1
+22,2019,,Eruption ,,Steve Olson,,1
+23,2019,,Dopesick ,,Beth Macy,,0
+1,2018,,In a Different Key ,,John Donvan and Caren Zucker,,
+2,2018,,Mindset ,,Carol Dweck,,1
+3,2018,,Weapons of Math Destruction ,,Cathy O’Neil,,1
+4,2018,,The Generals ,,Thomas Ricks,,0
+5,2018,,Negotiating Opportunities ,,Jessica McCrory Calarco,0,1
+6,2018,,"Promise Me, Dad ",,Joe Biden,0,0
+7,2018,,Deep ,,James Nestor,,0
+8,2018,,Evicted ,,Matthew Desmond,,0
+9,2018,,On the Fire Line ,,Matthew Desmond,,0
+10,2018,,No Good Men Among the Living ,,Anand Gopal,,1
+11,2018,,Locking Up Our Own ,,James Forman Jr.,1,0
+12,2018,,On Trails ,,Robert Moor,,0
+13,2018,,Custer's Trials ,,T.J. Stiles,,0
+14,2018,,Tides ,,Jonathan White,,0
+15,2018,,Left for Dead ,,Beck Weathers,,0
+16,2018,978-0226514178,Educational Goods,"Educational Goods: Values, Evidence, and Decision-Making"," Harry Brighouse, Helen F. Ladd, Susanna Loeb, Adam Swift",,
+17,2018,978-0374298777,Paradise of the Pacific ,Paradise of the Pacific: Approaching Hawaii,Susanna Moore,0,1
+18,2018,,Superforecasting ,,Dan Gardner & Philip E. Tetlock,0,0
+19,2018,,Ghosts of K2 ,,Mick Conefrey,,
+20,2018,,The Fifth Risk ,,Michael Lewis,0,0
+21,2018,,Endure ,,Alex Hutchinson,,
+22,2018,,Fire Season ,,Phillip Connors,,
+23,2018,,The Evolution of Beauty ,,Richard O. Prum,,
+1,2017,,Between the World and Me ,,Ta-Nehisi Coates,1,0
+2,2017,,The Undoing Project ,,MIchael Lewis,0,0
+3,2017,,Barbarian Days ,,William Finnegan,0,0
+4,2017,,The Checklist Manifesto ,,Atul Gawande,1,0
+5,2017,,Hillbilly Elegy ,,J.D. Vance,0,0
+6,2017,,Quiet ,,Susan Cain,,
+7,2017,,Sapiens ,,Yuval Noah Harari,,
+8,2017,,There Are No Children Here ,,Alex Kotlowitz,,
+9,2017,,The Sports Gene ,,David Epstein,,
+10,2017,,The Maroons of Jamaica ,,Mavis Campbell,,
+11,2017,,Natural Born Heroes ,,Christopher McDougall,,
+12,2017,,Tribe ,,Sebastian Junger,0,0
+13,2017,,Pacific ,,Simon Winchester,,
+14,2017,,Churchill & Orwell ,,Thomas Ricks,0,0
+15,2017,,Black Flags ,,Joby Warrick,,
+16,2017,,Age of Ambition ,,Evan Osnos,,
+17,2017,,Encounters at the Heart of the World ,,Elizabeth Fenn,,
+18,2017,,Grit ,,Angela Duckworth,1,1

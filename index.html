@@ -32,11 +32,17 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="site_libs/plotly-binding-4.10.0/plotly.js"></script>
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="site_libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-2.5.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="site_libs/plotly-main-2.5.1/plotly-latest.min.js"></script>
 <script src="site_libs/core-js-2.5.3/shim.min.js"></script>
 <script src="site_libs/react-17.0.0/react.min.js"></script>
 <script src="site_libs/react-17.0.0/react-dom.min.js"></script>
 <script src="site_libs/reactwidget-1.0.0/react-tools.js"></script>
-<script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
 <script src="site_libs/reactable-binding-0.2.3/reactable.js"></script>
 
 <style type="text/css">
@@ -274,12 +280,13 @@ $(document).ready(function () {
 <div id="how-im-doing" class="section level3">
 <h3>How I’m doing</h3>
 <p>Three years of steady progress with a peak in 2019. Then a decline…but so is life.</p>
-<p><img src="index_files/figure-html/over-time-1.png" width="672" /></p>
+<div id="htmlwidget-934deec519a715708b74" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-934deec519a715708b74">{"x":{"visdat":{"21c857fb41fb":["function () ","plotlyVisDat"]},"cur_data":"21c857fb41fb","attrs":{"21c857fb41fb":{"x":{},"y":{},"mode":"lines","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"shapes":[{"type":"line","x0":2016,"x1":2021,"y0":24,"y1":24,"line":{"width":2}}],"xaxis":{"domain":[0,1],"automargin":true,"title":"year"},"yaxis":{"domain":[0,1],"automargin":true,"title":"Books"},"hovermode":"closest","showlegend":false},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":[2017,2018,2019,2020,2021],"y":[18,23,23,9,7],"mode":"lines","type":"scatter","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"line":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="what-have-i-read-this-year" class="section level3">
 <h3>What have I read this year?</h3>
-<div id="htmlwidget-d08a8ad24a2e210ca7d3" class="reactable html-widget" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-d08a8ad24a2e210ca7d3">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Title":["Pandemic","Civilizing Torture","What Tech Calls Thinking","Making the Unequal Metropolis","Vision or Mirage","A Promised Land"],"Author":["Sonia Shah","W. Fitzhugh Brundage","Adrian Daub","Ansley T. Erickson","David Rundell","Barack Obama"]},"columns":[{"accessor":"Title","name":"Title","type":"character"},{"accessor":"Author","name":"Author","type":"character"}],"defaultPageSize":10,"paginationType":"numbers","showPageInfo":true,"minRows":1,"dataKey":"a1d369c565a5ac1d49bfca9b8359072d","key":"a1d369c565a5ac1d49bfca9b8359072d"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-e874c1639afb47a253f8" class="reactable html-widget" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-e874c1639afb47a253f8">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"read.order":[1,2,3,4,5,6,7],"isbn":["978-1250118004","978-0674737662","978-0374538644","978-0226025254","978-1838605933","1524763160","978-0393881554"],"Title":["Pandemic","Civilizing Torture","What Tech Calls Thinking","Making the Unequal Metropolis","Vision or Mirage","A Promised Land","The Premonition"],"long.title":["Pandemic: Tracking Contagions, from Cholera to Coronaviruses and Beyond","Civilizing Torture: An American Tradition","What Tech Calls Thinking: An Inquiry into the Intellectual Bedrock of Silicon Valley","Making the Unequal Metropolis: School Desegregation and Its Limits","Vision or Mirage: Saudi Arabia at the Crossroads","A Promised Land","The Premonition: A Pandemic Story"],"Author":["Sonia Shah","W. Fitzhugh Brundage","Adrian Daub","Ansley T. Erickson","David Rundell","Barack Obama","Michael Lewis"],"author.of.color":[1,0,0,0,0,1,0],"author.female":[1,0,0,1,0,0,0]},"columns":[{"accessor":"read.order","name":"read.order","type":"numeric"},{"accessor":"isbn","name":"isbn","type":"character"},{"accessor":"Title","name":"Title","type":"character"},{"accessor":"long.title","name":"long.title","type":"character"},{"accessor":"Author","name":"Author","type":"character"},{"accessor":"author.of.color","name":"author.of.color","type":"numeric"},{"accessor":"author.female","name":"author.female","type":"numeric"}],"defaultPageSize":10,"paginationType":"numbers","showPageInfo":true,"minRows":1,"showSortable":true,"dataKey":"cd72ed61e7dd38a2245880b43968f2b2","key":"cd72ed61e7dd38a2245880b43968f2b2"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
 
 

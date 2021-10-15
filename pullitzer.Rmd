@@ -22,12 +22,22 @@ read at least one of the finalists each year.
 
 pullitzer_years <- pullitzer %>%
   group_by(year, category) %>%
-  summarise(count = sum(read))
+  summarise(Books = sum(read)) %>%
+  mutate(category = recode(category, 
+                           'history' = "History",
+                           'general-nonfiction' = 'General Nonfiction'))
 
-ggplot(pullitzer_years, aes(x = year, y = count, fill = category)) +
-  geom_area() +
-  ylim(0,(max(pullitzer_years$count)+1)) +
-  theme_minimal()
+ggplot(pullitzer_years, aes(x = year, y = Books, fill = category)) +
+  geom_col() +
+  geom_hline(data = data.frame(x = seq(0, 4, 1)),
+               aes(yintercept = x), color = "white", size = 0.5) +
+  scale_x_continuous(breaks = c(2014:2021)) +
+  theme(
+    legend.position = "bottom",
+    legend.title = element_blank(),
+    panel.background = element_blank(),
+    axis.title.x = element_blank()
+  )
 
 ```
 
