@@ -34,7 +34,7 @@ plot_ly(by_year, x = ~year, y = ~Books,
                                         x1 = 2021, 
                                         y0 = 24,
                                         y1 = 24, 
-                                        line = list(width = 2))))
+                                        line = list(width = 2, dash = "dot"))))
 
 
 ```
@@ -47,8 +47,7 @@ this_year <- max(booklist$year)
 
 current_year <- booklist %>%
   filter(year == this_year) %>%
-  select(-year,
-         Title = short.title,
+  select(Title = long.title,
          Author = author)
 
 reactable(current_year,

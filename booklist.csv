@@ -18,17 +18,17 @@ read-order,year,isbn,short-title,long-title,author,author-of-color,author-female
 1,2019,978-1631494024,The Gulf ,The Gulf: The Making of An American Sea,Jack E. Davis,0,0
 2,2019,978-0393068504,Continental Divide ,Continental Divide: A History of American Mountaineering,Maurice Isserman,0,0
 3,2019,978-1451678192,The Martian Chronicles ,The Martian Chronicles ,Ray Bradbury,0,0
-4,2019,,Innumeracy ,,John Allen Paulos,,0
-5,2019,,Strangers in Their Own Land ,,Arlie Russell Hochschild,,
-6,2019,,What Doesn't Kill Us ,,Scott Carney,,
-7,2019,,Eiger Dreams ,,Jon Krakauer,0,0
-8,2019,,The Other Slavery ,,Andrés Reséndez,,
-9,2019,,Sprawlball ,,Kirk Goldsberry,,
-10,2019,,Survival Math ,,Michell S. Jackson,,
-11,2019,,Cribsheet ,,Emily Oster,0,1
-12,2019,,The MVP Machine ,,Ben Lindbergh & Travis Sawchik,,
-13,2019,,The Line Becomes a River ,,Francisco Cantú,,
-14,2019,,Amity and Prosperity ,,Eliza Griswold,,
+4,2019,978-0809058402,Innumeracy ,Innumeracy: Mathematical Illiteracy and Its Consequences,John Allen Paulos,0,0
+5,2019,978-1620973493,Strangers in Their Own Land ,Strangers in Their Own Land: Anger and Mourning on the American Right,Arlie Russell Hochschild,0,1
+6,2019,978-1635652413,What Doesn't Kill Us ,"What Doesn't Kill Us: How Freezing Water, Extreme Altitude and Environmental Conditioning Will Renew Our Lost Evolutionary Strength",Scott Carney,0,0
+7,2019,978-1493035373,Eiger Dreams ,Eiger Dreams: Ventures Among Men and Mountains,Jon Krakauer,0,0
+8,2019,978-0544947108,The Other Slavery ,The Other Slavery: The Uncovered Story of Indian Enslavement in America,Andrés Reséndez,1,0
+9,2019,978-1328767516,Sprawlball ,SprawlBall: A Visual Tour of the New Era of the NBA,Kirk Goldsberry,0,0
+10,2019,978-1501131738,Survival Math ,Survival Math: Notes on an All-American Family Paperback,Michell S. Jackson,1,0
+11,2019,978-0525559276,Cribsheet ,"Cribsheet: A Data-Driven Guide to Better, More Relaxed Parenting, from Birth to Preschool",Emily Oster,0,1
+12,2019,978-1541698925,The MVP Machine ,The MVP Machine: How Baseball's New Nonconformists Are Using Data to Build Better Players,Ben Lindbergh & Travis Sawchik,0,0
+13,2019,978-0735217737,The Line Becomes a River ,The Line Becomes a River: Dispatches from the Border,Francisco Cantú,1,0
+14,2019,978-1250215079,Amity and Prosperity ,Amity and Prosperity: One Family and the Fracturing of America,Eliza Griswold,0,1
 15,2019,,Redeployment ,,Phil Klay,,
 16,2019,,Leadership ,,Doris Kearns Goodwin,,
 17,2019,978-0989892421,Quick and the Dead ,The Quick and the Dead: Total Training for the Advanced Minimalist,Pavel Tsatsouline,0,0
