@@ -1,81 +1,82 @@
-read-order,year,isbn,short-title,long-title,author,author-of-color,author-female
-1,2021,978-1250118004,Pandemic,"Pandemic: Tracking Contagions, from Cholera to Coronaviruses and Beyond",Sonia Shah,1,1
-2,2021,978-0674737662,Civilizing Torture,Civilizing Torture: An American Tradition,W. Fitzhugh Brundage,0,0
-3,2021,978-0374538644,What Tech Calls Thinking,What Tech Calls Thinking: An Inquiry into the Intellectual Bedrock of Silicon Valley,Adrian Daub,0,0
-4,2021,978-0226025254,Making the Unequal Metropolis,Making the Unequal Metropolis: School Desegregation and Its Limits,Ansley T. Erickson,0,1
-5,2021,978-1838605933,Vision or Mirage,Vision or Mirage: Saudi Arabia at the Crossroads,David Rundell,0,0
-6,2021,1524763160,A Promised Land,A Promised Land,Barack Obama,1,0
-7,2021,978-0393881554,The Premonition,The Premonition: A Pandemic Story,Michael Lewis,0,0
-1,2020,978-0399563126,The Genius of Birds ,The Genius of Birds ,Jennifer Ackerman,0,1
-2,2020,978-1455540013,The Lost City of the Monkey God ,The Lost City of the Monkey God: A True Story,Douglas Preston,0,0
-3,2020,978-0393609868,Limits of the Known ,Limits of the Known,David Roberts,0,0
-4,2020,978-0525436140,There There ,There There,Tommy Orange,1,0
-5,2020,978-0525509288,How to be an Antiracist ,How to Be an Antiracist,Ibram X. Kendi,1,0
-6,2020,978-1250214850,The End of the Myth ,The End of the Myth: From the Frontier to the Border Wall in the Mind of America,Greg Grandin,0,0
-7,2020,978-0802148308,Solitary ,Solitary,Albert Woodfox,1,0
-8,2020,978-0190846992,Sweet Taste of Liberty ,Sweet Taste of Liberty: A True Story of Slavery and Restitution in America,W. Caleb McDaniel,0,0
-9,2020,978-1250107817,Factfulness ,Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think,Hans Rosling,0,0
-1,2019,978-1631494024,The Gulf ,The Gulf: The Making of An American Sea,Jack E. Davis,0,0
-2,2019,978-0393068504,Continental Divide ,Continental Divide: A History of American Mountaineering,Maurice Isserman,0,0
-3,2019,978-1451678192,The Martian Chronicles ,The Martian Chronicles ,Ray Bradbury,0,0
-4,2019,978-0809058402,Innumeracy ,Innumeracy: Mathematical Illiteracy and Its Consequences,John Allen Paulos,0,0
-5,2019,978-1620973493,Strangers in Their Own Land ,Strangers in Their Own Land: Anger and Mourning on the American Right,Arlie Russell Hochschild,0,1
-6,2019,978-1635652413,What Doesn't Kill Us ,"What Doesn't Kill Us: How Freezing Water, Extreme Altitude and Environmental Conditioning Will Renew Our Lost Evolutionary Strength",Scott Carney,0,0
-7,2019,978-1493035373,Eiger Dreams ,Eiger Dreams: Ventures Among Men and Mountains,Jon Krakauer,0,0
-8,2019,978-0544947108,The Other Slavery ,The Other Slavery: The Uncovered Story of Indian Enslavement in America,Andrés Reséndez,1,0
-9,2019,978-1328767516,Sprawlball ,SprawlBall: A Visual Tour of the New Era of the NBA,Kirk Goldsberry,0,0
-10,2019,978-1501131738,Survival Math ,Survival Math: Notes on an All-American Family Paperback,Michell S. Jackson,1,0
-11,2019,978-0525559276,Cribsheet ,"Cribsheet: A Data-Driven Guide to Better, More Relaxed Parenting, from Birth to Preschool",Emily Oster,0,1
-12,2019,978-1541698925,The MVP Machine ,The MVP Machine: How Baseball's New Nonconformists Are Using Data to Build Better Players,Ben Lindbergh & Travis Sawchik,0,0
-13,2019,978-0735217737,The Line Becomes a River ,The Line Becomes a River: Dispatches from the Border,Francisco Cantú,1,0
-14,2019,978-1250215079,Amity and Prosperity ,Amity and Prosperity: One Family and the Fracturing of America,Eliza Griswold,0,1
-15,2019,,Redeployment ,,Phil Klay,,
-16,2019,,Leadership ,,Doris Kearns Goodwin,,
-17,2019,978-0989892421,Quick and the Dead ,The Quick and the Dead: Total Training for the Advanced Minimalist,Pavel Tsatsouline,0,0
-18,2019,,The Nature Fix ,,Florence Williams,,
-19,2019,,This Republic of Suffering ,,Drew Gilpin Faust,,1
-20,2019,,Waterman ,,David Davis,,0
-21,2019,,Ratio ,,Michael Ruhlman,,1
-22,2019,,Eruption ,,Steve Olson,,1
-23,2019,,Dopesick ,,Beth Macy,,0
-1,2018,,In a Different Key ,,John Donvan and Caren Zucker,,
-2,2018,,Mindset ,,Carol Dweck,,1
-3,2018,,Weapons of Math Destruction ,,Cathy O’Neil,,1
-4,2018,,The Generals ,,Thomas Ricks,,0
-5,2018,,Negotiating Opportunities ,,Jessica McCrory Calarco,0,1
-6,2018,,"Promise Me, Dad ",,Joe Biden,0,0
-7,2018,,Deep ,,James Nestor,,0
-8,2018,,Evicted ,,Matthew Desmond,,0
-9,2018,,On the Fire Line ,,Matthew Desmond,,0
-10,2018,,No Good Men Among the Living ,,Anand Gopal,,1
-11,2018,,Locking Up Our Own ,,James Forman Jr.,1,0
-12,2018,,On Trails ,,Robert Moor,,0
-13,2018,,Custer's Trials ,,T.J. Stiles,,0
-14,2018,,Tides ,,Jonathan White,,0
-15,2018,,Left for Dead ,,Beck Weathers,,0
-16,2018,978-0226514178,Educational Goods,"Educational Goods: Values, Evidence, and Decision-Making"," Harry Brighouse, Helen F. Ladd, Susanna Loeb, Adam Swift",,
-17,2018,978-0374298777,Paradise of the Pacific ,Paradise of the Pacific: Approaching Hawaii,Susanna Moore,0,1
-18,2018,,Superforecasting ,,Dan Gardner & Philip E. Tetlock,0,0
-19,2018,,Ghosts of K2 ,,Mick Conefrey,,
-20,2018,,The Fifth Risk ,,Michael Lewis,0,0
-21,2018,,Endure ,,Alex Hutchinson,,
-22,2018,,Fire Season ,,Phillip Connors,,
-23,2018,,The Evolution of Beauty ,,Richard O. Prum,,
-1,2017,,Between the World and Me ,,Ta-Nehisi Coates,1,0
-2,2017,,The Undoing Project ,,MIchael Lewis,0,0
-3,2017,,Barbarian Days ,,William Finnegan,0,0
-4,2017,,The Checklist Manifesto ,,Atul Gawande,1,0
-5,2017,,Hillbilly Elegy ,,J.D. Vance,0,0
-6,2017,,Quiet ,,Susan Cain,,
-7,2017,,Sapiens ,,Yuval Noah Harari,,
-8,2017,,There Are No Children Here ,,Alex Kotlowitz,,
-9,2017,,The Sports Gene ,,David Epstein,,
-10,2017,,The Maroons of Jamaica ,,Mavis Campbell,,
-11,2017,,Natural Born Heroes ,,Christopher McDougall,,
-12,2017,,Tribe ,,Sebastian Junger,0,0
-13,2017,,Pacific ,,Simon Winchester,,
-14,2017,,Churchill & Orwell ,,Thomas Ricks,0,0
-15,2017,,Black Flags ,,Joby Warrick,,
-16,2017,,Age of Ambition ,,Evan Osnos,,
-17,2017,,Encounters at the Heart of the World ,,Elizabeth Fenn,,
-18,2017,,Grit ,,Angela Duckworth,1,1
+read-order,year,short-title,long-title,author,author-of-color,author-female
+1,2021,Pandemic,"Pandemic: Tracking Contagions, from Cholera to Coronaviruses and Beyond",Sonia Shah,1,1
+2,2021,Civilizing Torture,Civilizing Torture: An American Tradition,W. Fitzhugh Brundage,0,0
+3,2021,What Tech Calls Thinking,What Tech Calls Thinking: An Inquiry into the Intellectual Bedrock of Silicon Valley,Adrian Daub,0,0
+4,2021,Making the Unequal Metropolis,Making the Unequal Metropolis: School Desegregation and Its Limits,Ansley T. Erickson,0,1
+5,2021,Vision or Mirage,Vision or Mirage: Saudi Arabia at the Crossroads,David Rundell,0,0
+6,2021,A Promised Land,A Promised Land,Barack Obama,1,0
+7,2021,The Premonition,The Premonition: A Pandemic Story,Michael Lewis,0,0
+8,2021,Ghosts in the Schoolyard,Ghosts in the Schoolyard: Racism and School Closings on Chicago's South Side,Eve. L. Ewing,1,1
+1,2020,The Genius of Birds ,The Genius of Birds ,Jennifer Ackerman,0,1
+2,2020,The Lost City of the Monkey God ,The Lost City of the Monkey God: A True Story,Douglas Preston,0,0
+3,2020,Limits of the Known ,Limits of the Known,David Roberts,0,0
+4,2020,There There ,There There,Tommy Orange,1,0
+5,2020,How to be an Antiracist ,How to Be an Antiracist,Ibram X. Kendi,1,0
+6,2020,The End of the Myth ,The End of the Myth: From the Frontier to the Border Wall in the Mind of America,Greg Grandin,0,0
+7,2020,Solitary ,Solitary,Albert Woodfox,1,0
+8,2020,Sweet Taste of Liberty ,Sweet Taste of Liberty: A True Story of Slavery and Restitution in America,W. Caleb McDaniel,0,0
+9,2020,Factfulness ,Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think,Hans Rosling,0,0
+1,2019,The Gulf ,The Gulf: The Making of An American Sea,Jack E. Davis,0,0
+2,2019,Continental Divide ,Continental Divide: A History of American Mountaineering,Maurice Isserman,0,0
+3,2019,The Martian Chronicles ,The Martian Chronicles ,Ray Bradbury,0,0
+4,2019,Innumeracy ,Innumeracy: Mathematical Illiteracy and Its Consequences,John Allen Paulos,0,0
+5,2019,Strangers in Their Own Land ,Strangers in Their Own Land: Anger and Mourning on the American Right,Arlie Russell Hochschild,0,1
+6,2019,What Doesn't Kill Us ,"What Doesn't Kill Us: How Freezing Water, Extreme Altitude and Environmental Conditioning Will Renew Our Lost Evolutionary Strength",Scott Carney,0,0
+7,2019,Eiger Dreams ,Eiger Dreams: Ventures Among Men and Mountains,Jon Krakauer,0,0
+8,2019,The Other Slavery ,The Other Slavery: The Uncovered Story of Indian Enslavement in America,Andrés Reséndez,1,0
+9,2019,Sprawlball ,SprawlBall: A Visual Tour of the New Era of the NBA,Kirk Goldsberry,0,0
+10,2019,Survival Math ,Survival Math: Notes on an All-American Family Paperback,Michell S. Jackson,1,0
+11,2019,Cribsheet ,"Cribsheet: A Data-Driven Guide to Better, More Relaxed Parenting, from Birth to Preschool",Emily Oster,0,1
+12,2019,The MVP Machine ,The MVP Machine: How Baseball's New Nonconformists Are Using Data to Build Better Players,Ben Lindbergh & Travis Sawchik,0,0
+13,2019,The Line Becomes a River ,The Line Becomes a River: Dispatches from the Border,Francisco Cantú,1,0
+14,2019,Amity and Prosperity ,Amity and Prosperity: One Family and the Fracturing of America,Eliza Griswold,0,1
+15,2019,Redeployment ,Redployment,Phil Klay,0,0
+16,2019,Leadership ,Leadership: In Turbulent Times,Doris Kearns Goodwin,0,1
+17,2019,Quick and the Dead ,The Quick and the Dead: Total Training for the Advanced Minimalist,Pavel Tsatsouline,0,0
+18,2019,The Nature Fix ,"The Nature Fix: Why Nature Makes Us Happier, Healthier, and More Creative",Florence Williams,0,1
+19,2019,This Republic of Suffering ,This Republic of Suffering: Death and the American Civil War,Drew Gilpin Faust,1,1
+20,2019,Waterman ,Waterman: The Life and Times of Duke Kahanamoku,David Davis,0,0
+21,2019,Ratio ,Ratio: The Simple Codes Behind the Craft of Everyday Cooking,Michael Ruhlman,0,0
+22,2019,Eruption ,Eruption: The Untold Story of Mount St. Helens,Steve Olson,0,0
+23,2019,Dopesick ,"Dopesick: Dealers, Doctors, and the Drug Company that Addicted America",Beth Macy,0,1
+1,2018,In a Different Key ,In a Different Key: The Story of Autism,John Donvan and Caren Zucker,,
+2,2018,Mindset ,Mindset: The New Psychology of Success,Carol Dweck,0,1
+3,2018,Weapons of Math Destruction ,Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy,Cathy O’Neil,0,1
+4,2018,The Generals ,The Generals: American Military Command from World War II to Today,Thomas E. Ricks,0,0
+5,2018,Negotiating Opportunities ,Negotiating Opportunities: How the Middle Class Secures Advantages in School,Jessica McCrory Calarco,0,1
+6,2018,"Promise Me, Dad ","Promise Me, Dad: A Year of Hope, Hardship, and Purpose ",Joe Biden,0,0
+7,2018,Deep ,"Deep: Freediving, Renegade Science, and What the Ocean Tells Us about Ourselves",James Nestor,0,0
+8,2018,Evicted ,Evicted: Poverty and Profit in the American City,Matthew Desmond,0,0
+9,2018,On the Fire Line ,On the Fireline: Living and Dying with Wildland Firefighters,Matthew Desmond,0,0
+10,2018,No Good Men Among the Living ,"No Good Men Among the Living: America, the Taliban, and the War through Afghan Eyes",Anand Gopal,1,1
+11,2018,Locking Up Our Own ,Locking Up Our Own: Crime and Punishment in Black America,James Forman Jr.,1,0
+12,2018,On Trails ,On Trails: An Exploration,Robert Moor,0,0
+13,2018,Custer's Trials ,Custer's Trials: A Life on the Frontier of a New America,T.J. Stiles,0,0
+14,2018,Tides ,Tides: The Science and Spirit of the Ocean,Jonathan White,0,0
+15,2018,Left for Dead ,Left for Dead: My Journey Home from Everest,Beck Weathers,0,0
+16,2018,Educational Goods,"Educational Goods: Values, Evidence, and Decision-Making"," Harry Brighouse, Helen F. Ladd, Susanna Loeb, Adam Swift",,
+17,2018,Paradise of the Pacific ,Paradise of the Pacific: Approaching Hawaii,Susanna Moore,0,1
+18,2018,Superforecasting ,Superforecasting: The Art and Science of Prediction,Dan Gardner & Philip E. Tetlock,0,0
+19,2018,Ghosts of K2 ,The Ghosts of K2: The Epic Saga of the First Ascent,Mick Conefrey,0,0
+20,2018,The Fifth Risk ,The Fifth Risk: Undoing Democracy,Michael Lewis,0,0
+21,2018,Endure ,"Endure: Mind, Body, and the Curiously Elastic Limits of Human Performance",Alex Hutchinson,0,0
+22,2018,Fire Season ,Fire Season: Field Notes from a Wilderness Lookout,Phillip Connors,0,0
+23,2018,The Evolution of Beauty ,The Evolution of Beauty: How Darwin's Forgotten Theory of Mate Choice Shapes the Animal World—And Us,Richard O. Prum,0,0
+1,2017,Between the World and Me ,Between the World and Me,Ta-Nehisi Coates,1,0
+2,2017,The Undoing Project ,The Undoing Project: A Friendship That Changed Our Minds,MIchael Lewis,0,0
+3,2017,Barbarian Days ,Barbarian Days: A Surfing Life,William Finnegan,0,0
+4,2017,The Checklist Manifesto ,The Checklist Manifesto: How to Get Things Right,Atul Gawande,1,0
+5,2017,Hillbilly Elegy ,Hillbilly Elegy: A Memoir of a Family and Culture in Crisis,J.D. Vance,0,0
+6,2017,Quiet ,Quiet: The Power of Introverts in a World That Can't Stop Talking,Susan Cain,0,1
+7,2017,Sapiens ,Sapiens: A Brief History of Humankind,Yuval Noah Harari,0,0
+8,2017,There Are No Children Here ,There are No Children Here: The Story of Two Boys Growing Up in the Other America,Alex Kotlowitz,0,0
+9,2017,The Sports Gene ,The Sports Gene: Inside the Science of Extraordinary Athletic Performance,David Epstein,0,0
+10,2017,The Maroons of Jamaica ,"The Maroons of Jamaica: A History of Resistance, Collaboration and Betrayal",Mavis Campbell,1,1
+11,2017,Natural Born Heroes ,Natural Born Heroes: How a Daring Band of Misfits Mastered the Lost Secrets of Strength and Endurance,Christopher McDougall,0,0
+12,2017,Tribe ,Tribe: On Homecoming and Belonging,Sebastian Junger,0,0
+13,2017,Pacific ,Pacific: The Ocean of the Future,Simon Winchester,0,0
+14,2017,Churchill & Orwell ,Churchill and Orwell: The Fight for Freedom,Thomas Ricks,0,0
+15,2017,Black Flags ,Black Flags: The Rise of ISIS,Joby Warrick,0,0
+16,2017,Age of Ambition ,"Age of Ambition: Chasing Fortune, Truth, and Faith in the New China",Evan Osnos,0,0
+17,2017,Encounters at the Heart of the World ,Encounters at the Heart of the World: A History of the Mandan People,Elizabeth Fenn,0,1
+18,2017,Grit ,Grit: The Power of Passion and Perseverance,Angela Duckworth,1,1
