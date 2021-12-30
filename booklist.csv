@@ -8,6 +8,7 @@ read-order,year,short-title,long-title,author,author-of-color,author-female
 7,2021,The Premonition,The Premonition: A Pandemic Story,Michael Lewis,0,0
 8,2021,Ghosts in the Schoolyard,Ghosts in the Schoolyard: Racism and School Closings on Chicago's South Side,Eve. L. Ewing,1,1
 9,2021,Franchise,Franchise: The Golden Arches in Black America,Marcia Chatelain,1,1
+10,2021,The Three-Cornered War,The Three-Cornered War: The Union, the Confederacy, and Native Peoples in the Fight for the West, Megan Kate Nelson,0,1
 1,2020,The Genius of Birds ,The Genius of Birds ,Jennifer Ackerman,0,1
 2,2020,The Lost City of the Monkey God ,The Lost City of the Monkey God: A True Story,Douglas Preston,0,0
 3,2020,Limits of the Known ,Limits of the Known,David Roberts,0,0
@@ -24,12 +25,12 @@ read-order,year,short-title,long-title,author,author-of-color,author-female
 5,2019,Strangers in Their Own Land ,Strangers in Their Own Land: Anger and Mourning on the American Right,Arlie Russell Hochschild,0,1
 6,2019,What Doesn't Kill Us ,"What Doesn't Kill Us: How Freezing Water, Extreme Altitude and Environmental Conditioning Will Renew Our Lost Evolutionary Strength",Scott Carney,0,0
 7,2019,Eiger Dreams ,Eiger Dreams: Ventures Among Men and Mountains,Jon Krakauer,0,0
-8,2019,The Other Slavery ,The Other Slavery: The Uncovered Story of Indian Enslavement in America,Andrés Reséndez,1,0
+8,2019,The Other Slavery ,The Other Slavery: The Uncovered Story of Indian Enslavement in America,AndrÃ©s ResÃ©ndez,1,0
 9,2019,Sprawlball ,SprawlBall: A Visual Tour of the New Era of the NBA,Kirk Goldsberry,0,0
 10,2019,Survival Math ,Survival Math: Notes on an All-American Family Paperback,Michell S. Jackson,1,0
 11,2019,Cribsheet ,"Cribsheet: A Data-Driven Guide to Better, More Relaxed Parenting, from Birth to Preschool",Emily Oster,0,1
 12,2019,The MVP Machine ,The MVP Machine: How Baseball's New Nonconformists Are Using Data to Build Better Players,Ben Lindbergh & Travis Sawchik,0,0
-13,2019,The Line Becomes a River ,The Line Becomes a River: Dispatches from the Border,Francisco Cantú,1,0
+13,2019,The Line Becomes a River ,The Line Becomes a River: Dispatches from the Border,Francisco CantÃº,1,0
 14,2019,Amity and Prosperity ,Amity and Prosperity: One Family and the Fracturing of America,Eliza Griswold,0,1
 15,2019,Redeployment ,Redployment,Phil Klay,0,0
 16,2019,Leadership ,Leadership: In Turbulent Times,Doris Kearns Goodwin,0,1
@@ -42,7 +43,7 @@ read-order,year,short-title,long-title,author,author-of-color,author-female
 23,2019,Dopesick ,"Dopesick: Dealers, Doctors, and the Drug Company that Addicted America",Beth Macy,0,1
 1,2018,In a Different Key ,In a Different Key: The Story of Autism,John Donvan and Caren Zucker,,
 2,2018,Mindset ,Mindset: The New Psychology of Success,Carol Dweck,0,1
-3,2018,Weapons of Math Destruction ,Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy,Cathy O’Neil,0,1
+3,2018,Weapons of Math Destruction ,Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy,Cathy Oâ€™Neil,0,1
 4,2018,The Generals ,The Generals: American Military Command from World War II to Today,Thomas E. Ricks,0,0
 5,2018,Negotiating Opportunities ,Negotiating Opportunities: How the Middle Class Secures Advantages in School,Jessica McCrory Calarco,0,1
 6,2018,"Promise Me, Dad ","Promise Me, Dad: A Year of Hope, Hardship, and Purpose ",Joe Biden,0,0
@@ -62,7 +63,7 @@ read-order,year,short-title,long-title,author,author-of-color,author-female
 20,2018,The Fifth Risk ,The Fifth Risk: Undoing Democracy,Michael Lewis,0,0
 21,2018,Endure ,"Endure: Mind, Body, and the Curiously Elastic Limits of Human Performance",Alex Hutchinson,0,0
 22,2018,Fire Season ,Fire Season: Field Notes from a Wilderness Lookout,Phillip Connors,0,0
-23,2018,The Evolution of Beauty ,The Evolution of Beauty: How Darwin's Forgotten Theory of Mate Choice Shapes the Animal World—and Us,Richard O. Prum,0,0
+23,2018,The Evolution of Beauty ,The Evolution of Beauty: How Darwin's Forgotten Theory of Mate Choice Shapes the Animal Worldâ€”and Us,Richard O. Prum,0,0
 1,2017,Between the World and Me ,Between the World and Me,Ta-Nehisi Coates,1,0
 2,2017,The Undoing Project ,The Undoing Project: A Friendship That Changed Our Minds,MIchael Lewis,0,0
 3,2017,Barbarian Days ,Barbarian Days: A Surfing Life,William Finnegan,0,0
