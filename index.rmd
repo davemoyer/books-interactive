@@ -18,7 +18,7 @@ I found I enjoyed the simple process of writing down the books I'd read, which s
 
 ### How I'm doing
 
-Three years of steady progress with a peak in 2019. Then a decline...but so is life.
+Three years of steady progress and then a decline. But here's to better trends going forward.
 
 ```{r over-time, echo=FALSE, warning=FALSE, message=FALSE}
 library(plotly)
@@ -31,7 +31,7 @@ plot_ly(by_year, x = ~year, y = ~Books,
         type = 'scatter', mode = 'lines') %>%
   layout(shapes=list(list(type = 'line', 
                                         x0 = 2016,
-                                        x1 = 2021, 
+                                        x1 = 2022, 
                                         y0 = 24,
                                         y1 = 24, 
                                         line = list(width = 2, dash = "dot"))))
