@@ -20,7 +20,6 @@ The chart below shows which Pullitzer years I've done the best in reading.
 
 
 ```{r pullitzer-by-year, message=FALSE, warning=FALSE}
-
 pullitzer_years <- pullitzer %>%
   group_by(year, category) %>%
   summarise(Books = sum(read)) %>%
@@ -28,8 +27,11 @@ pullitzer_years <- pullitzer %>%
                            'history' = "History",
                            'general-nonfiction' = 'General Nonfiction'))
 
+bar_colors <- c("#6db1bf", "#f39a9d")
+
 ggplot(pullitzer_years, aes(x = year, y = Books, fill = category)) +
   geom_col() +
+  scale_fill_manual(values = bar_colors) +
   geom_hline(data = data.frame(x = seq(0, 4, 1)),
                aes(yintercept = x), color = "white", size = 0.5) +
   scale_x_continuous(breaks = c(2014:2021)) +
