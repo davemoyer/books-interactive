@@ -28,13 +28,23 @@ by_year <- booklist %>%
   summarise(Books = n())
 
 plot_ly(by_year, x = ~year, y = ~Books,
-        type = 'scatter', mode = 'lines') %>%
+        type = 'scatter', mode = 'lines+markers',fill = 'tozeroy') %>%
   layout(shapes=list(list(type = 'line', 
-                                        x0 = 2016,
+                                        x0 = 2017,
                                         x1 = 2022, 
                                         y0 = 24,
                                         y1 = 24, 
-                                        line = list(width = 2, dash = "dot"))))
+                                        line = list(width = 2, dash = "dot"))),
+         yaxis = list(showline = FALSE,
+                      showticklabels = TRUE,
+                      tickcolor = 'rgb(127,127,127)',
+                      ticks = 'outside',
+                      zeroline = FALSE,
+                      range = list(0,32),
+                      dtick = 4,
+                      zerolinewidth = 2),
+         xaxis = list(showline = TRUE,
+                      zerolinewidth = 6))
 
 
 ```

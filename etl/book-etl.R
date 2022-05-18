@@ -43,3 +43,13 @@ booklist <- books_joined %>%
          order_read = ifelse(read == 1, paste0(year_read,'-',order_read),NA_character_))
 
 write.csv(booklist,"etl/booklist.csv",row.names = F, na = "")
+
+##
+authors <- read.csv('etl/authors.csv', stringsAsFactors = F)
+
+pullitzer <- read.csv('pullitzer.csv',stringsAsFactors = F) 
+
+pullitzer_with_authors <- pullitzer %>%
+  left_join(authors, by = 'author')
+
+write.csv(pullitzer_with_authors, 'pullitzer.csv',row.names = F, na = "")
