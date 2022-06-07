@@ -1,7 +1,6 @@
 ---
 title: "Book Reading"
 output: html_document
-
 ---
 
 ```{r setup, include=FALSE}
@@ -13,8 +12,6 @@ library(cowplot)
 ```
 
 I found I enjoyed the simple process of writing down the books I'd read, which spawned this small effort. I soon set myself a target of reading 24 books annually, and also set a target of reading at least one Pullitzer Prize winning work each year.
-
-
 
 ### How I'm doing
 
@@ -50,6 +47,7 @@ plot_ly(by_year, x = ~year, y = ~Books,
 ```
 
 ### What have I read this year?
+
 ```{r current-books, echo=FALSE}
 library(reactable)
 
