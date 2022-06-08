@@ -55,8 +55,10 @@ this_year <- max(booklist$year)
 
 current_year <- booklist %>%
   filter(year == this_year) %>%
-  select(Title = long.title,
-         Author = author)
+  select(Order = read.order,
+         Title = long.title,
+         Author = author) %>%
+  arrange(desc(Order))
 
 reactable(current_year,
           showSortable = TRUE)
