@@ -56,21 +56,30 @@ These are the finalists and winners of general nonfiction and history, and my pr
 library(reactable)
 plot_table <- pullitzer %>%
   arrange(desc(year), desc(category), desc(award)) %>%
+  mutate(across(c(read,author.of.color,author.female), ~ifelse(.x == 1,'Yes','No'))) %>%
   select(-long.title)
 
 reactable(plot_table,
           columns = list(
             year = colDef(name = "Year"),
-            short.title = colDef(name = "Title"),
+            short.title = colDef(name = "Title",
+                                 minWidth = 150),
             author = colDef(name = "Author"),
-            read = colDef(name = "Read"),
+            read = colDef(name = "Read",
+                          cell = function(value) {
+                            # Render as an X mark or check mark
+                            if (value == "No") "\u274c" else "\u2714\ufe0f"
+                          },
+                          maxWidth = 75),
             award = colDef(name = "Award"),
-            category = colDef(name = "Category")),
+            category = colDef(name = "Category"),
+            author.of.color = colDef(name = 'Author of Color'),
+            author.female = colDef(name = 'Female Author')),
           sortable = TRUE,
           showSortable = TRUE,
           defaultPageSize = 20,
           rowStyle = function(index) {
-            if (plot_table[index,"read"] == 1) {
+            if (plot_table[index,"read"] == 'Yes') {
               list(fontWeight = "bold")
             }
           })

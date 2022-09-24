@@ -61,6 +61,10 @@ current_year <- booklist %>%
   arrange(desc(Order))
 
 reactable(current_year,
+            columns = list(
+    Order = colDef(maxWidth = 100),
+    Author = colDef(maxWidth = 300)
+  ),
           showSortable = TRUE)
 
 ```
