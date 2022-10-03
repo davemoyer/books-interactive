@@ -1,5 +1,5 @@
 ---
-title: 'Pullitzer Progress'
+title: 'Pulitzer Progress'
 output: html_document
 ---
 
@@ -8,28 +8,33 @@ knitr::opts_chunk$set(echo = FALSE)
 pullitzer <- read.csv("pullitzer.csv")
 library(ggplot2)
 library(dplyr)
-library(cowplot)
 ```
 
 
-Several years ago, I resolved to read more books, but was a bit lost as to how go about it.
+When I resolved to read more books I was a bit lost as to how to go about it.
 I figured award-winning books were a good start, and no better system than the Pulitzer, which
-has "History" and "General Non-Fiction" categories that I now try to read from. 
+has "History" and "General Nonfiction" categories that I now try to read from. 
 
 My goal is to have read at least one of the finalists from each Pullitzer year (and to see how far back I can go too).
-The chart below shows the Pullitzer years I've covered (as well as how big my pullitzer database is getting).
+The chart below shows the Pulitzer years I've covered (as well as how big my Pulitzer database is getting).
 
 
-```{r pullitzer-by-year, message=FALSE, warning=FALSE}
+
+### Books Read by Pulitzer Year
+##### The year they were recognized, not the year I read them
+
+```{r pullitzer-by-year, message=FALSE, warning=FALSE, fig.align='center'}
+min_pullitzer_year <- min(pullitzer[pullitzer$read == 1,"year"])
+max_pullitzer_year <- max(pullitzer$year)
+
 pullitzer_years <- pullitzer %>%
+  filter(year >= min_pullitzer_year) %>%
   group_by(year, category) %>%
   summarise(Books = sum(read)) %>%
   mutate(category = recode(category, 
                            'history' = "History",
                            'general-nonfiction' = 'General Nonfiction'))
 
-min_pullitzer_year <- min(pullitzer$year)
-max_pullitzer_year <- max(pullitzer$year)
 
 bar_colors <- c("#7a5195", "#ef5675")
 
@@ -54,10 +59,15 @@ These are the finalists and winners of general nonfiction and history, and my pr
 
 ```{r over-time, echo=FALSE}
 library(reactable)
+library(stringr)
+
+
 plot_table <- pullitzer %>%
   arrange(desc(year), desc(category), desc(award)) %>%
-  mutate(across(c(read,author.of.color,author.female), ~ifelse(.x == 1,'Yes','No'))) %>%
-  select(-long.title)
+  mutate(across(c(read,author.of.color,author.female), ~ifelse(.x == 1,'Yes','No')),
+         award = str_to_title(award),
+         category = recode(category, 'history' = 'History','general-nonfiction'='General Non-Fiction' )) %>%
+  select(-long.title, -author.of.color, -author.female)
 
 reactable(plot_table,
           columns = list(
@@ -72,9 +82,7 @@ reactable(plot_table,
                           },
                           maxWidth = 75),
             award = colDef(name = "Award"),
-            category = colDef(name = "Category"),
-            author.of.color = colDef(name = 'Author of Color'),
-            author.female = colDef(name = 'Female Author')),
+            category = colDef(name = "Category")),
           sortable = TRUE,
           showSortable = TRUE,
           defaultPageSize = 20,

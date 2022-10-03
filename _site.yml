@@ -7,3 +7,5 @@ navbar:
       href: index.html
     - text: "Pullitzer"
       href: pullitzer.html
+    - text: "Authors"
+      href: authors.html

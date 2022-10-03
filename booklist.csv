@@ -15,6 +15,7 @@ read-order,year,short-title,long-title,author,author-of-color,author-female
 14,2022,"Broken Trust", "Broken Trust: Greed, Mismanagement & Political Manipulation at America's Largest Charitable Trust","Samuel P. King & Randall W. Roth",0,0
 15,2022,"The Pentagon's Brain", "The Pentagon's Brain: An Uncensored History of DARPA, America's Top-Secret Military Research Agency",Annie Jacobsen,0,1
 16,2022,Brave New World,Brave New World,Aldous Huxley,0,0
+17,2022,"Like, Comment, Subscribe","Like, Comment, Subscribe: Inside YouTube's Chaotic Rise to World Domination",Mark Bergen,0,0
 1,2021,Pandemic,"Pandemic: Tracking Contagions, from Cholera to Coronaviruses and Beyond",Sonia Shah,1,1
 2,2021,Civilizing Torture,Civilizing Torture: An American Tradition,W. Fitzhugh Brundage,0,0
 3,2021,What Tech Calls Thinking,What Tech Calls Thinking: An Inquiry into the Intellectual Bedrock of Silicon Valley,Adrian Daub,0,0
@@ -57,22 +58,22 @@ read-order,year,short-title,long-title,author,author-of-color,author-female
 21,2019,Ratio ,Ratio: The Simple Codes Behind the Craft of Everyday Cooking,Michael Ruhlman,0,0
 22,2019,Eruption ,Eruption: The Untold Story of Mount St. Helens,Steve Olson,0,0
 23,2019,Dopesick ,"Dopesick: Dealers, Doctors, and the Drug Company that Addicted America",Beth Macy,0,1
-1,2018,In a Different Key ,In a Different Key: The Story of Autism,John Donvan and Caren Zucker,,
-2,2018,Mindset ,Mindset: The New Psychology of Success,Carol Dweck,0,1
+1,2018,In a Different Key,In a Different Key: The Story of Autism,John Donvan and Caren Zucker,,
+2,2018,Mindset,Mindset: The New Psychology of Success,Carol Dweck,0,1
 3,2018,Weapons of Math Destruction ,Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy,Cathy O’Neil,0,1
 4,2018,The Generals ,The Generals: American Military Command from World War II to Today,Thomas E. Ricks,0,0
 5,2018,Negotiating Opportunities ,Negotiating Opportunities: How the Middle Class Secures Advantages in School,Jessica McCrory Calarco,0,1
-6,2018,"Promise Me, Dad ","Promise Me, Dad: A Year of Hope, Hardship, and Purpose ",Joe Biden,0,0
+6,2018,"Promise Me, Dad","Promise Me, Dad: A Year of Hope, Hardship, and Purpose ",Joe Biden,0,0
 7,2018,Deep ,"Deep: Freediving, Renegade Science, and What the Ocean Tells Us about Ourselves",James Nestor,0,0
 8,2018,Evicted ,Evicted: Poverty and Profit in the American City,Matthew Desmond,0,0
-9,2018,On the Fire Line ,On the Fireline: Living and Dying with Wildland Firefighters,Matthew Desmond,0,0
+9,2018,On the Fire Line,On the Fireline: Living and Dying with Wildland Firefighters,Matthew Desmond,0,0
 10,2018,No Good Men Among the Living,"No Good Men Among the Living: America, the Taliban and the War Through Afghan Eyes",Anand Gopal,1,0
-11,2018,Locking Up Our Own ,Locking Up Our Own: Crime and Punishment in Black America,James Forman Jr.,1,0
+11,2018,Locking Up Our Own,Locking Up Our Own: Crime and Punishment in Black America,James Forman Jr.,1,0
 12,2018,On Trails ,On Trails: An Exploration,Robert Moor,0,0
 13,2018,Custer's Trials ,Custer's Trials: A Life on the Frontier of a New America,T.J. Stiles,0,0
-14,2018,Tides ,Tides: The Science and Spirit of the Ocean,Jonathan White,0,0
+14,2018,Tides,Tides: The Science and Spirit of the Ocean,Jonathan White,0,0
 15,2018,Left for Dead ,Left for Dead: My Journey Home from Everest,Beck Weathers,0,0
-16,2018,Educational Goods,"Educational Goods: Values, Evidence, and Decision-Making"," Harry Brighouse, Helen F. Ladd, Susanna Loeb, Adam Swift",,
+16,2018,Educational Goods,"Educational Goods: Values, Evidence, and Decision-Making","Harry Brighouse, Helen F. Ladd, Susanna Loeb, Adam Swift",0,1
 17,2018,Paradise of the Pacific ,Paradise of the Pacific: Approaching Hawaii,Susanna Moore,0,1
 18,2018,Superforecasting ,Superforecasting: The Art and Science of Prediction,Dan Gardner & Philip E. Tetlock,0,0
 19,2018,Ghosts of K2 ,The Ghosts of K2: The Epic Saga of the First Ascent,Mick Conefrey,0,0

@@ -5,10 +5,14 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-booklist <- read.csv("booklist.csv")
+
 library(ggplot2)
 library(dplyr)
-library(cowplot)
+library(stringr)
+
+booklist <- read.csv("booklist.csv") %>%
+  mutate(across(ends_with('title'),str_squish))
+
 ```
 
 I found I enjoyed the simple process of writing down the books I'd read, which spawned this small effort. I soon set myself a target of reading 24 books annually, and also set a target of reading at least one Pullitzer Prize winning work each year.
@@ -62,7 +66,7 @@ current_year <- booklist %>%
 
 reactable(current_year,
             columns = list(
-    Order = colDef(maxWidth = 100),
+    Order = colDef(maxWidth = 150),
     Author = colDef(maxWidth = 300)
   ),
           showSortable = TRUE)
