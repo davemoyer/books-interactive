@@ -1,4 +1,5 @@
 read-order,year,short-title,long-title,author,author-of-color,author-female
+1,2023,Cuba,Cuba: An American History,Ada Ferrer,1,1
 1,2022,Command and Control,"Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety",Eric Schlosser,0,0
 2,2022,Forget the Alamo,Forget the Alamo: The Rise and Fall of an American Myth,"Bryan Burrough, Chris Tomlinson, Jason Stanford",0,0
 3,2022,Draft Animals,Draft Animals: Living the Pro Cycling Dream (Once in a While),Phil Gaimon,0,0
@@ -12,12 +13,14 @@ read-order,year,short-title,long-title,author,author-of-color,author-female
 11,2022,Covered with Night,Covered with Night: A Story of Murder and Indigenous Justice in Early America,Nicole Eustace,0,1
 12,2022,How the World Really Works,How the World Really Works: The Science Behind How We Got Here and Where We're Going,Vaclav Smil,0,0
 13,2022,The Workshop Survival Guide, The Workshop Survival Guide: How to design and teach educational workshops that work every time,Rob Fitzpatrick & Devin Hunt,0,0
-14,2022,"Broken Trust", "Broken Trust: Greed, Mismanagement & Political Manipulation at America's Largest Charitable Trust","Samuel P. King & Randall W. Roth",0,0
-15,2022,"The Pentagon's Brain", "The Pentagon's Brain: An Uncensored History of DARPA, America's Top-Secret Military Research Agency",Annie Jacobsen,0,1
+14,2022,Broken Trust," ""Broken Trust: Greed"," Mismanagement & Political Manipulation at America's Largest Charitable Trust""",0,0
+15,2022,The Pentagon's Brain," ""The Pentagon's Brain: An Uncensored History of DARPA"," America's Top-Secret Military Research Agency""",0,1
 16,2022,Brave New World,Brave New World,Aldous Huxley,0,0
 17,2022,"Like, Comment, Subscribe","Like, Comment, Subscribe: Inside YouTube's Chaotic Rise to World Domination",Mark Bergen,0,0
-18,2022,"Behind the Beautiful Forevers","Behind the Beautiful Forevers: Life, Death, and Hope in a Mumbai Undercity",Katherine Boo,0,1
+18,2022,Behind the Beautiful Forevers,"Behind the Beautiful Forevers: Life, Death, and Hope in a Mumbai Undercity",Katherine Boo,0,1
 19,2022,Project Hail Mary,Project Hail Mary,Andy Weir,0,0
+20,2022,Pauahi,Pauahi: The Kamehameha Legacy,"""George Hu?eu Sanford Kanahele""",1,0
+21,2022,Snow Crash,Snow Crash,Neal Stephenson,0,0
 1,2021,Pandemic,"Pandemic: Tracking Contagions, from Cholera to Coronaviruses and Beyond",Sonia Shah,1,1
 2,2021,Civilizing Torture,Civilizing Torture: An American Tradition,W. Fitzhugh Brundage,0,0
 3,2021,What Tech Calls Thinking,What Tech Calls Thinking: An Inquiry into the Intellectual Bedrock of Silicon Valley,Adrian Daub,0,0
@@ -60,7 +63,7 @@ read-order,year,short-title,long-title,author,author-of-color,author-female
 21,2019,Ratio ,Ratio: The Simple Codes Behind the Craft of Everyday Cooking,Michael Ruhlman,0,0
 22,2019,Eruption ,Eruption: The Untold Story of Mount St. Helens,Steve Olson,0,0
 23,2019,Dopesick ,"Dopesick: Dealers, Doctors, and the Drug Company that Addicted America",Beth Macy,0,1
-1,2018,In a Different Key,In a Different Key: The Story of Autism,John Donvan and Caren Zucker,,
+1,2018,In a Different Key,In a Different Key: The Story of Autism,John Donvan and Caren Zucker,0,1
 2,2018,Mindset,Mindset: The New Psychology of Success,Carol Dweck,0,1
 3,2018,Weapons of Math Destruction ,Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy,Cathy O’Neil,0,1
 4,2018,The Generals ,The Generals: American Military Command from World War II to Today,Thomas E. Ricks,0,0

@@ -13,7 +13,7 @@
 
 <title>Book Reading</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -32,18 +32,19 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
-<script src="site_libs/plotly-binding-4.10.0/plotly.js"></script>
+<script src="site_libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
+<script src="site_libs/plotly-binding-4.10.1/plotly.js"></script>
 <script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
 <link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
 <script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
-<link href="site_libs/plotly-htmlwidgets-css-2.5.1/plotly-htmlwidgets.css" rel="stylesheet" />
-<script src="site_libs/plotly-main-2.5.1/plotly-latest.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 <script src="site_libs/core-js-2.5.3/shim.min.js"></script>
 <script src="site_libs/react-17.0.0/react.min.js"></script>
 <script src="site_libs/react-17.0.0/react-dom.min.js"></script>
 <script src="site_libs/reactwidget-1.0.0/react-tools.js"></script>
-<script src="site_libs/reactable-binding-0.3.0/reactable.js"></script>
+<link href="site_libs/reactable-0.4.3/reactable.css" rel="stylesheet" />
+<script src="site_libs/reactable-binding-0.4.3/reactable.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -190,8 +191,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -199,16 +200,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -295,13 +289,13 @@ Pullitzer Prize winning work each year.</p>
 <h3>How I’m doing</h3>
 <p>Three years of steady progress and then a decline. But here’s to
 better trends going forward.</p>
-<div id="htmlwidget-616c530d5bf32bb44a10" style="width:672px;height:480px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-616c530d5bf32bb44a10">{"x":{"visdat":{"604472d5637e":["function () ","plotlyVisDat"]},"cur_data":"604472d5637e","attrs":{"604472d5637e":{"x":{},"y":{},"mode":"lines+markers","fill":"tozeroy","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"shapes":[{"type":"line","x0":2017,"x1":2022,"y0":24,"y1":24,"line":{"width":2,"dash":"dot"}}],"yaxis":{"domain":[0,1],"automargin":true,"showline":false,"showticklabels":true,"tickcolor":"rgb(127,127,127)","ticks":"outside","zeroline":false,"range":[0,32],"dtick":4,"zerolinewidth":2,"title":"Books"},"xaxis":{"domain":[0,1],"automargin":true,"showline":true,"zerolinewidth":6,"title":"year"},"hovermode":"closest","showlegend":false},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"fillcolor":"rgba(31,119,180,0.5)","x":[2017,2018,2019,2020,2021,2022],"y":[18,23,23,9,10,17],"mode":"lines+markers","fill":"tozeroy","type":"scatter","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"line":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-7d10e3e44c2773a497f8" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-7d10e3e44c2773a497f8">{"x":{"visdat":{"6a6852f5155":["function () ","plotlyVisDat"]},"cur_data":"6a6852f5155","attrs":{"6a6852f5155":{"x":{},"y":{},"mode":"lines+markers","fill":"tozeroy","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"shapes":[{"type":"line","x0":2017,"x1":2022,"y0":24,"y1":24,"line":{"width":2,"dash":"dot"}}],"yaxis":{"domain":[0,1],"automargin":true,"showline":false,"showticklabels":true,"tickcolor":"rgb(127,127,127)","ticks":"outside","zeroline":false,"range":[0,32],"dtick":4,"zerolinewidth":2,"title":"Books"},"xaxis":{"domain":[0,1],"automargin":true,"showline":true,"zerolinewidth":6,"title":"year"},"hovermode":"closest","showlegend":false},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"fillcolor":"rgba(31,119,180,0.5)","x":[2017,2018,2019,2020,2021,2022,2023],"y":[18,23,23,9,10,21,1],"mode":"lines+markers","fill":"tozeroy","type":"scatter","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"line":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="what-have-i-read-this-year" class="section level3">
 <h3>What have I read this year?</h3>
-<div id="htmlwidget-9cdb71f4910366ce8d0d" class="reactable html-widget" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-9cdb71f4910366ce8d0d">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Order":[17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1],"Title":["Like, Comment, Subscribe: Inside YouTube's Chaotic Rise to World Domination","Brave New World","The Pentagon's Brain: An Uncensored History of DARPA, America's Top-Secret Military Research Agency","Broken Trust: Greed, Mismanagement & Political Manipulation at America's Largest Charitable Trust","The Workshop Survival Guide: How to design and teach educational workshops that work every time","How the World Really Works: The Science Behind How We Got Here and Where We're Going","Covered with Night: A Story of Murder and Indigenous Justice in Early America","The Injustice Never Leaves You: Anti-Mexican Violence in Texas","Volcanoes, Palm Trees & Privilege: Essays on Hawai'i","Caste: The Origins of Our Discontents","Yellow Bird: Oil, Murder, and a Woman's Search for Justice in Indian Country","Say Nothing: A True Story of Murder and Memory in Northern Ireland","The Rise of Wolf 8: Witnesing the Triumph of Yellowstone's Underdog","Race for Profit: How Banks and the Real Estate Industry Undermined Black Homeownership","Draft Animals: Living the Pro Cycling Dream (Once in a While)","Forget the Alamo: The Rise and Fall of an American Myth","Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety"],"Author":["Mark Bergen","Aldous Huxley","Annie Jacobsen","Samuel P. King & Randall W. Roth","Rob Fitzpatrick & Devin Hunt","Vaclav Smil","Nicole Eustace","Monica Munoz Martinez","Liz Prato","Isabel Wilkerson"," Sierra Crane Murdoch"," Patrick Radden Keefe","Rick McIntyre","Keeanga-Yamahtta Taylor","Phil Gaimon","Bryan Burrough, Chris Tomlinson, Jason Stanford","Eric Schlosser"]},"columns":[{"accessor":"Order","name":"Order","type":"numeric","maxWidth":150},{"accessor":"Title","name":"Title","type":"character"},{"accessor":"Author","name":"Author","type":"character","maxWidth":300}],"defaultPageSize":10,"paginationType":"numbers","showPageInfo":true,"minRows":1,"showSortable":true,"dataKey":"4bb5a2fd3ff144861eef481ea7852048"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-99783d1fd86b568b83cb" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-99783d1fd86b568b83cb">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Order":[1],"Title":["Cuba: An American History"],"Author":["Ada Ferrer"]},"columns":[{"id":"Order","name":"Order","type":"numeric","maxWidth":150},{"id":"Title","name":"Title","type":"character"},{"id":"Author","name":"Author","type":"character","maxWidth":300}],"showSortable":true,"dataKey":"4edd650f1b75870526c6e0e25555748e"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
 
 
