@@ -2,6 +2,10 @@ read-order,year,short-title,long-title,author,author-of-color,author-female
 1,2023,Cuba,Cuba: An American History,Ada Ferrer,1,1
 2,2023,Empire of Pain,Empire of Pain: The Secret History of the Sackler Dynasty,Patrick Radden-Keefe,0,0
 3,2023,The Seeds We Planted,The Seeds We Planted: Portraits of a Native Hawaiian Charter School,Noelani Goodyear-Ka’opua,1,1
+4,2023,Kitchen Confidential,Kitchen Confidential: Adventures in the Culinary Underbelly,Anthony Bourdain,0,0
+5,2023,The Quiet American,The Quiet American,Graham Greene,0,0
+6,2023,Down and Out in Paris and London,Down and Out in Paris and London,George Orwell,0,0
+7,2023,Deep Learning,Deep Learning,John D. Kelleher,0,0
 1,2022,Command and Control,"Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety",Eric Schlosser,0,0
 2,2022,Forget the Alamo,Forget the Alamo: The Rise and Fall of an American Myth,"Bryan Burrough, Chris Tomlinson, Jason Stanford",0,0
 3,2022,Draft Animals,Draft Animals: Living the Pro Cycling Dream (Once in a While),Phil Gaimon,0,0
@@ -15,7 +19,7 @@ read-order,year,short-title,long-title,author,author-of-color,author-female
 11,2022,Covered with Night,Covered with Night: A Story of Murder and Indigenous Justice in Early America,Nicole Eustace,0,1
 12,2022,How the World Really Works,How the World Really Works: The Science Behind How We Got Here and Where We're Going,Vaclav Smil,0,0
 13,2022,The Workshop Survival Guide, The Workshop Survival Guide: How to design and teach educational workshops that work every time,Rob Fitzpatrick & Devin Hunt,0,0
-14,2022,Broken Trust," ""Broken Trust: Greed"," Mismanagement & Political Manipulation at America's Largest Charitable Trust""",0,0
+14,2022,Broken Trust," ""Broken Trust: Greed, Mismanagement & Political Manipulation at America's Largest Charitable Trust""",Samuel P. King & Randall W. Roth,0,0
 15,2022,The Pentagon's Brain," ""The Pentagon's Brain: An Uncensored History of DARPA"," America's Top-Secret Military Research Agency""",0,1
 16,2022,Brave New World,Brave New World,Aldous Huxley,0,0
 17,2022,"Like, Comment, Subscribe","Like, Comment, Subscribe: Inside YouTube's Chaotic Rise to World Domination",Mark Bergen,0,0
