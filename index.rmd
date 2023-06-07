@@ -15,24 +15,25 @@ booklist <- read.csv("booklist.csv") %>%
 
 ```
 
-I found I enjoyed the simple process of writing down the books I'd read, which spawned this small effort. I soon set myself a target of reading 24 books annually, and also set a target of reading at least one Pullitzer Prize winning work each year.
+I found I enjoyed the simple process of writing down the books I'd read, which spawned this small effort. I soon set myself a target of reading 24 books annually, and also set a target of reading at least one Pulitzer Prize winning work each year.
 
 ### How I'm doing
 
-Three years of steady progress and then a decline. But here's to better trends going forward.
+Three years of steady progress and then a decline, and some mixed results in the last couple of years. It's a journey.
 
-```{r over-time, echo=FALSE, warning=FALSE, message=FALSE}
+```{r over-time, echo=FALSE, warning=FALSE, message=FALSE, out.width='100%'}
 library(plotly)
 
 by_year <- booklist %>%
-  group_by(year) %>%
+  rename(Year = year) %>%
+  group_by(Year) %>%
   summarise(Books = n())
 
-plot_ly(by_year, x = ~year, y = ~Books,
+fig <- plot_ly(by_year, x = ~Year, y = ~Books,
         type = 'scatter', mode = 'lines+markers',fill = 'tozeroy') %>%
   layout(shapes=list(list(type = 'line', 
                                         x0 = 2017,
-                                        x1 = 2022, 
+                                        x1 = 2023, 
                                         y0 = 24,
                                         y1 = 24, 
                                         line = list(width = 2, dash = "dot"))),
@@ -46,6 +47,8 @@ plot_ly(by_year, x = ~year, y = ~Books,
                       zerolinewidth = 2),
          xaxis = list(showline = TRUE,
                       zerolinewidth = 6))
+config(fig, responsive = T, displayModeBar = F)
+
 
 
 ```
@@ -66,7 +69,7 @@ current_year <- booklist %>%
 
 reactable(current_year,
             columns = list(
-    Order = colDef(maxWidth = 150),
+    Order = colDef(maxWidth = 75),
     Author = colDef(maxWidth = 300)
   ),
           showSortable = TRUE)

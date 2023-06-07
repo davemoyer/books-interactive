@@ -17,20 +17,23 @@ I've also been tracking a little bit about who writes the books I'm reading. Ide
 backgrounds of the authors, so I'm starting there.
 
 
-```{r author-background, message = F}
+```{r author-background, message = F, out.width='100%'}
 
 library(plotly)
+library(tidyverse)
 
 authors <- booklist %>%
   group_by(year) %>%
   summarise(n = n(),
-            ct_of_color = sum(author.of.color, na.rm =T),
             pct_of_color = round(100*mean(author.of.color, na.rm = T),1),
-            ct_female = sum(author.female, na.rm = T),
-            pct_female = round(100*mean(author.female, na.rm = T),1))
+            pct_female = round(100*mean(author.female, na.rm = T),1)) 
 
 
-plot_ly(authors, x = ~year, y = ~pct_of_color, name = 'Authors of Color', type = 'scatter', mode = 'lines+markers') %>%
-  add_trace(y = ~pct_female, name = 'Female Authors', type = 'scatter', mode = 'lines+markers')
+author_fig <- plot_ly(authors, x = ~year, y = ~pct_of_color, name = 'Authors of Color', type = 'scatter', mode = 'lines+markers') %>%
+  add_trace(y = ~pct_female, name = 'Female Authors', type = 'scatter', mode = 'lines+markers') %>%
+  layout(legend = list(orientation = 'h'),
+         yaxis = list (title = 'Percentage'),
+         xaxis = list (title = ''))
+config(author_fig, displayModeBar = F)
   
 ```

@@ -5,7 +5,7 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Pullitzer"
+    - text: "Pulitzer"
       href: pullitzer.html
     - text: "Authors"
       href: authors.html
