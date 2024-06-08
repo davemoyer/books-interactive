@@ -1,4 +1,10 @@
 read-order,year,short-title,long-title,author,author-of-color,author-female
+1,2024,Up to Speed ,Up to Speed: The Groundbreaking Science of Women Athletes,Christine Yu,1,1
+2,2024,Hawaii,Hawaii: Islands Under the Influence ,Noel J. Kent,0,0
+3,2024,The Code Breaker ,"""The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race""",Walter Isaacson,0,0
+4,2024,Code Talker,Code Talker,Chester Nez,1,0
+5,2024,The Tiger ,The Tiger: A True Story of Vengeance and Survival,John Vaillant,0,0
+6,2024,The Fund ,"""The Fund: Ray Dalio, Bridgewater Associates and the Unraveling of a Wall Street Legend""",Rob Copeland,0,0
 1,2023,Cuba,Cuba: An American History,Ada Ferrer,1,1
 2,2023,Empire of Pain,Empire of Pain: The Secret History of the Sackler Dynasty,Patrick Radden-Keefe,0,0
 3,2023,The Seeds We Planted,The Seeds We Planted: Portraits of a Native Hawaiian Charter School,Noelani Goodyear-Ka’opua,1,1
@@ -15,6 +21,8 @@ read-order,year,short-title,long-title,author,author-of-color,author-female
 14,2023,The Color of Law,The Color of Law: A Forgotten History of How Our Government Segregated America,Richard Rothstein,0,0
 15,2023,Rogues,"Rogues: True Stories of Grifters, Killers, Rebels and Crooks",Patrick Radden Keefe,0,0
 16,2023,The Snakehead,The Snakehead: An Epic Tale of the Chinatown Underworld and the American Dream,Patrick Radden Keefe,0,0
+17,2023,Number Go Up,Number Go Up: Inside Crypto's Wild Rise and Staggering Fall,Zeke Faux,0,0
+18,2023,The Right Stuff,The Right Stuff,Tom Wolfe,0,0
 1,2022,Command and Control,"Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety",Eric Schlosser,0,0
 2,2022,Forget the Alamo,Forget the Alamo: The Rise and Fall of an American Myth,"Bryan Burrough, Chris Tomlinson, Jason Stanford",0,0
 3,2022,Draft Animals,Draft Animals: Living the Pro Cycling Dream (Once in a While),Phil Gaimon,0,0

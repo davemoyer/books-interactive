@@ -33,7 +33,7 @@ fig <- plot_ly(by_year, x = ~Year, y = ~Books,
         type = 'scatter', mode = 'lines+markers',fill = 'tozeroy') %>%
   layout(shapes=list(list(type = 'line', 
                                         x0 = 2017,
-                                        x1 = 2023, 
+                                        x1 = 2024, 
                                         y0 = 24,
                                         y1 = 24, 
                                         line = list(width = 2, dash = "dot"))),
