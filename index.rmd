@@ -19,7 +19,7 @@ I found I enjoyed the simple process of writing down the books I'd read, which s
 
 ### How I'm doing
 
-Three years of steady progress and then a decline, and some mixed results in the last couple of years. It's a journey.
+There was early progress, and then a decline, and I'm working my way back. It's a journey.
 
 ```{r over-time, echo=FALSE, warning=FALSE, message=FALSE, out.width='100%'}
 library(plotly)
