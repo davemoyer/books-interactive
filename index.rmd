@@ -15,7 +15,7 @@ booklist <- read.csv("booklist.csv") %>%
 
 ```
 
-I found I enjoyed the simple process of writing down the books I'd read, which spawned this small effort. I soon set myself a target of reading 24 books annually, and also set a target of reading at least one Pulitzer Prize winning work each year.
+The goal is to read 24 books (just two a month!) each year, and to include something from the Pulitzer list. Historically this has been impossible for me, and this is an over-engineered exploration of that.
 
 ### How I'm doing
 
