@@ -29,11 +29,31 @@ authors <- booklist %>%
             pct_female = round(100*mean(author.female, na.rm = T),1)) 
 
 
-author_fig <- plot_ly(authors, x = ~year, y = ~pct_of_color, name = 'Authors of Color', type = 'scatter', mode = 'lines+markers') %>%
-  add_trace(y = ~pct_female, name = 'Female Authors', type = 'scatter', mode = 'lines+markers') %>%
-  layout(legend = list(orientation = 'h'),
-         yaxis = list (title = 'Percentage'),
-         xaxis = list (title = ''))
-config(author_fig, displayModeBar = F)
+author_fig <- plot_ly(
+  authors, 
+  x = ~year, 
+  y = ~pct_of_color, 
+  name = 'Authors of Color', 
+  type = 'scatter', 
+  mode = 'lines+markers',
+  line = list(color = "#ef5675", width = 4),
+  marker = list(color = "#ef5675", size = 6)
+) %>%
+  add_trace(
+    y = ~pct_female, 
+    name = 'Female Authors', 
+    type = 'scatter', 
+    mode = 'lines+markers',
+    line = list(color = "#7a5195", width = 4),
+    marker = list(color = "#7a5195", size = 6)
+  ) %>%
+  layout(
+    legend = list(orientation = 'h', font = list(size = 12, family = "Arial")),
+    yaxis = list(title = 'Percentage', titlefont = list(size = 14, family = "Arial")),
+    xaxis = list(title = '', tickfont = list(size = 12, family = "Arial"))
+  )
+
+config(author_fig, displayModeBar = FALSE)
+
   
 ```
