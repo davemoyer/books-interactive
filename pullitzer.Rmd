@@ -21,7 +21,7 @@ The chart below shows the Pulitzer years I've covered (as well as how big my Pul
 
 
 ### Books Read by Pulitzer Year
-##### The year they were recognized, not the year I read them
+The year they were recognized, not the year I read them
 
 ```{r pullitzer-by-year, message=FALSE, warning=FALSE, fig.align='center'}
 min_pullitzer_year <- min(pullitzer[pullitzer$read == 1,"year"])
@@ -33,10 +33,11 @@ pullitzer_years <- pullitzer %>%
   summarise(Books = sum(read)) %>%
   mutate(category = recode(category, 
                            'history' = "History",
-                           'general-nonfiction' = 'General Nonfiction'))
+                           'general-nonfiction' = 'General Nonfiction',
+                           'fiction' = "Fiction"))
 
 
-bar_colors <- c("#7a5195", "#ef5675")
+bar_colors <- c("#7a5195", "#ef5675", "#1a9988")
 
 ggplot(pullitzer_years, aes(x = year, y = Books, fill = category)) +
   geom_col() +
@@ -48,12 +49,13 @@ ggplot(pullitzer_years, aes(x = year, y = Books, fill = category)) +
     legend.position = "bottom",
     legend.title = element_blank(),
     panel.background = element_blank(),
-    axis.title.x = element_blank()
+    axis.title.x = element_blank(),
+    axis.ticks.x = element_blank()
   )
 
 ```
 
-## The full list
+### The full list
 
 These are the finalists and winners of general nonfiction and history, and my progress in reading them.
 
@@ -66,7 +68,7 @@ plot_table <- pullitzer %>%
   arrange(desc(year), desc(category), desc(award)) %>%
   mutate(across(c(read,author.of.color,author.female), ~ifelse(.x == 1,'Yes','No')),
          award = str_to_title(award),
-         category = recode(category, 'history' = 'History','general-nonfiction'='General Non-Fiction' )) %>%
+         category = recode(category, 'history' = 'History','general-nonfiction'='General Non-Fiction', 'fiction' = 'Fiction')) %>%
   select(-long.title, -author.of.color, -author.female)
 
 reactable(plot_table,
