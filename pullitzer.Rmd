@@ -13,9 +13,9 @@ library(dplyr)
 
 When I resolved to read more books I was a bit lost as to how to go about it.
 I figured award-winning books were a good start, and no better system than the Pulitzer, which
-has "History" and "General Nonfiction" categories that I now try to read from. 
+has "History", "General Nonfiction," and "Fiction" categories that I now try to read from. 
 
-My goal is to have read at least one of the finalists from each Pullitzer year (and to see how far back I can go too).
+My goal is to have read at least one of the finalists from each Pulitzer year (and to see how far back I can go too).
 The chart below shows the Pulitzer years I've covered (as well as how big my Pulitzer database is getting).
 
 
