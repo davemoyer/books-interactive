@@ -25,8 +25,8 @@ library(tidyverse)
 authors <- booklist %>%
   group_by(year) %>%
   summarise(n = n(),
-            pct_of_color = round(100*mean(author.of.color, na.rm = T),1),
-            pct_female = round(100*mean(author.female, na.rm = T),1)) 
+            pct_of_color = round(100*mean(author.of.color, na.rm = T)),
+            pct_female = round(100*mean(author.female, na.rm = T))) 
 
 
 author_fig <- plot_ly(
